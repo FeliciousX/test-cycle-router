@@ -1,0 +1,28 @@
+{
+  "name": "test-cycle-router",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "cycle-scripts-es-webpack": "0.3.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^14.3.0",
+    "@cycle/http": "^11.2.0",
+    "@cycle/xstream-run": "^4.2.0",
+    "cyclic-router": "^3.0.1",
+    "ramda": "^0.23.0",
+    "switch-path": "^1.2.0",
+    "xstream": "^9.3.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "take-off-training-wheels": "cycle-scripts take-off-training-wheels"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
